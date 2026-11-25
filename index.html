@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Sania Imam | Information Security Student</title>
+    <meta name="title" content="Sania Imam | Information Security Student" />
+    <meta
+      name="description"
+      content="Portfolio of Sania Imam, a third-semester Information Security student at NUST (MCS)"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://saniaxi.github.io" />
+    <meta property="og:title" content="Sania Imam | Information Security Student" />
+    <meta
+      property="og:description"
+      content="Portfolio of Sania Imam, a third-semester Information Security student at NUST (MCS)"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://saniaxi.github.io" />
+    <meta property="twitter:title" content="Sania Imam | Information Security Student" />
+
+    <!-- Link -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+
+    <!-- Small additions for the About and Skills sections.
+         Colours use currentColor so they follow the light/dark toggle. -->
+    <style>
+      .about-container,
+      .skills-container {
+        padding: 3rem 1.5rem;
+        text-align: center;
+      }
+      .about-container p {
+        max-width: 760px;
+        margin: 1rem auto 0;
+        line-height: 1.7;
+      }
+      .about-facts {
+        margin-top: 1rem;
+        opacity: 0.8;
+      }
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+        list-style: none;
+        margin: 1.5rem auto 0;
+        padding: 0;
+        max-width: 760px;
+      }
+      .skills-list li {
+        padding: 0.4rem 1rem;
+        border: 1px solid currentColor;
+        border-radius: 999px;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="#hero"
+              ><img src="./assets/logo.png" alt="Sania Imam logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#about">ABOUT</a></li>
+            <li><a class="nav-link" href="#skills">SKILLS</a></li>
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li>
+              <a class="nav-link btn btn-primary" href="#footer"
+                >CONTACT <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" alt="Dark mode" />
+                <img class="sun" src="assets/sun.svg" alt="Light mode" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header-container">
+        <img
+          class="profile-image"
+          src="assets/AvatarMaker.svg"
+          alt="Avatar of Sania Imam"
+        />
+        <h1>Hi I'm Sania Imam</h1>
+
+        <div class="content-text">
+          <h2>Securing digital</h2>
+          <h2>systems, networks, and data.</h2>
+
+          <p>
+            BE Information Security, 3rd semester, NUST (MCS), and an
+            illustrator with experience in graphic design.
+          </p>
+        </div>
+        <a href="#footer" class="btn btn-secondary">Connect With Me</a>
+      </section>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>About Me</h2>
+      </div>
+      <p>
+        I'm a third-semester Information Security student at the Military
+        College of Signals, NUST, working toward a BE in Information Security.
+        I enjoy understanding how systems actually work before trying to defend
+        them, which is why I build small projects in Java, Python and C++ and
+        practise in virtual machines, looking to keep
+        learning, build more, and grow toward a career in cybersecurity.
+      </p>
+      <p class="about-facts">
+        <strong>Degree:</strong> BE Information Security &middot;
+        <strong>Semester:</strong> 3rd &middot; <strong>University:</strong>
+        NUST, Military College of Signals
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Skills</h2>
+        <p>Tools and languages I have actually used in my coursework</p>
+      </div>
+      <ul class="skills-list">
+        <li>Java (OOP)</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>Git &amp; GitHub</li>
+        <li>Linux</li>
+        <li>VMware virtual machines</li>
+        <li>Cryptography basics</li>
+        <li>Steganography</li>
+        <li>Graphic design</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Projects</h2>
+        <p>Coursework and personal projects</p>
+      </div>
+
+      <article class="project">
+        <!-- Project 1 -->
+        <div class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Flower Shop App</h3>
+              <p>Java &middot; OOP: a plant shop with a cart and saved orders</p>
+            </div>
+            <div class="project-link">
+              <a
+                href="https://github.com/saniaxi/Flowershop"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Flower Shop on GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Crypto Toolkit</h3>
+              <p>Python: encryption and decryption utilities</p>
+            </div>
+            <div class="project-link">
+              <!-- TODO: replace with your real repo name -->
+              <a
+                href="https://github.com/saniaxi/CryptoToolKit"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Crypto Toolkit on GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Calculator App</h3>
+              <p>C++: a calculator built as a programming exercise</p>
+            </div>
+          
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Windows Password Lab &amp; Steganography</h3>
+              <p>
+                VMware lab on my own VMs: chntpw password reset and hiding data
+                in images
+              </p>
+              </div>
+          </div>
+        </div>
+      </article>
+
+      <a
+        href="https://github.com/saniaxi"
+        class="btn btn-secondary"
+        target="_blank"
+        rel="noopener noreferrer"
+        >See More on GitHub <i class="fas fa-arrow-right"></i
+      ></a>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <a href="mailto:saniaaimam@gmail.com">saniaaimam@gmail.com</a>
+        <!-- Social links -->
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/sania-i-87501141b"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./assets/linkedin-icon.svg" alt="LinkedIn"
+          /></a>
+          <a
+            href="https://github.com/saniaxi"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./assets/github-icon.svg" alt="GitHub"
+          /></a>
+        </div>
+        <!-- Attribution (MIT licence: keep the credit to the template author) -->
+        <div class="attribution">
+          <a
+            href="https://github.com/CommunityPro/portfolio-html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
+              alt="Template by CommunityPro"
+              width="150px"
+            />
+          </a>
+        </div>
+        <p>
+          &copy; <span id="datee"></span> Sania Imam. Template by
+          <a
+            href="https://github.com/CommunityPro/portfolio-html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CommunityPro</a
+          >
+          (MIT licence).
+        </p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
